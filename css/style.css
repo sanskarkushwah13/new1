@@ -575,7 +575,7 @@ p.ma-p {
 }
 .w3ls-pr input[type="text"],
 .w3ls-pr input[type="tel"],
-.w3ls-pr input[type="time"],
+.w3ls-pr input[type="number"],
 .w3ls-pr input[type="email"] {
 	background: none;
 	border: solid 1px #000;
@@ -607,9 +607,10 @@ select.sel{
 	font-size: .9em;
 	color: #999;
 	margin-bottom: 1.5em;
+	text-transform: capitalize;
 }
 
-.w3ls-pr input[type="time"] {
+.w3ls-pr input[type="number"] {
 	background: none;
 	border: solid 1px #000;
 	width: 100%;
